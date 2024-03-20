@@ -11,11 +11,14 @@ CONFIG_PACKAGE_boost=y
 CONFIG_PACKAGE_boost-program_options=y
 CONFIG_PACKAGE_boost-system=y
 CONFIG_PACKAGE_bzip2=y
+# CONFIG_PACKAGE_chinadns-ng is not set
 CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_coreutils-stat=y
 CONFIG_PACKAGE_coreutils-stty=y
 CONFIG_PACKAGE_cups=y
 CONFIG_PACKAGE_ddnsto=y
+# CONFIG_PACKAGE_dns2socks is not set
+# CONFIG_PACKAGE_dns2tcp is not set
 CONFIG_PACKAGE_etherwake=y
 CONFIG_PACKAGE_haproxy=y
 CONFIG_PACKAGE_ipt2socks=y
@@ -41,6 +44,7 @@ CONFIG_PACKAGE_kmod-usb-printer=y
 CONFIG_PACKAGE_libbz2=y
 CONFIG_PACKAGE_libcap-bin=y
 CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
+# CONFIG_PACKAGE_libcares is not set
 CONFIG_PACKAGE_libcups=y
 CONFIG_PACKAGE_libcupscgi=y
 CONFIG_PACKAGE_libcupsmime=y
@@ -64,25 +68,19 @@ CONFIG_PACKAGE_lsblk=y
 CONFIG_PACKAGE_luci-app-argon-config=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
 # CONFIG_PACKAGE_luci-app-autoupdate is not set
-CONFIG_PACKAGE_luci-app-cupsd=y
 # CONFIG_PACKAGE_luci-app-ddns is not set
 # CONFIG_PACKAGE_luci-app-filetransfer is not set
 CONFIG_PACKAGE_luci-app-istorex=y
 CONFIG_PACKAGE_luci-app-msd_lite=y
 CONFIG_PACKAGE_luci-app-omcproxy=y
-CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-p910nd=y
-CONFIG_PACKAGE_luci-app-passwall=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_SingBox=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
-CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
+CONFIG_PACKAGE_luci-app-passwall2=y
+CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Haproxy=y
+CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_ShadowsocksR_Libev_Client=y
+CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Libev_Client=y
+CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Simple_Obfs=y
+CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_SingBox=y
+CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_V2ray_Plugin=y
+CONFIG_PACKAGE_luci-app-passwall2_Iptables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-poweroff=y
 CONFIG_PACKAGE_luci-app-quickstart=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
@@ -101,7 +99,7 @@ CONFIG_PACKAGE_luci-app-store=y
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_PDNSD is not set
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_CM is not set
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
-CONFIG_PACKAGE_luci-app-usb-printer=y
+# CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
 CONFIG_PACKAGE_luci-app-watchcat=y
 CONFIG_PACKAGE_luci-app-wolplus=y
@@ -109,12 +107,10 @@ CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-msd_lite-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-omcproxy-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-p910nd-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-passwall2-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-poweroff-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-quickstart-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-shutdown-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-usb-printer-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-watchcat-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-wolplus-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
@@ -122,6 +118,8 @@ CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
 CONFIG_PACKAGE_luci-lib-taskd=y
 CONFIG_PACKAGE_luci-lib-xterm=y
 CONFIG_PACKAGE_mdadm=y
+# CONFIG_PACKAGE_microsocks is not set
+# CONFIG_PACKAGE_miniupnpd is not set
 CONFIG_PACKAGE_mjpg-streamer=y
 # CONFIG_PACKAGE_mosdns is not set
 CONFIG_PACKAGE_msd_lite=y
@@ -181,6 +179,7 @@ CONFIG_PACKAGE_shadow-utils=y
 CONFIG_PACKAGE_shadow-vipw=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
 # CONFIG_PACKAGE_shadowsocks-rust-sslocal is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
